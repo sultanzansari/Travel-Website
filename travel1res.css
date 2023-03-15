@@ -1,0 +1,60 @@
+@media (max-width:1200px){
+
+}
+
+@media (max-width:991px){
+    .heading-title{
+        font-size: 10vw;
+    }
+
+    .home .slide .content span{
+        font-size: 3vw;
+    }
+
+    .home .slide .content h3{
+        font-size: 10vw;
+    }
+
+    .btn{
+        font-size: 3.5vw
+    }
+
+    .heading h1{
+        font-size: 10vw;
+    }
+}
+
+@media (max-width:768px){
+    #menu-btn{
+        display: inline-block;
+        transition: .2s linear;
+    }
+
+    #menu-btn.fa-times{
+        transform:rotate(180deg);
+    }
+
+    .header .navbar{
+        position:absolute;
+        top:100%;left:0;right:0;
+        background-color:var(--white);
+        border: var(--black);
+        padding:32px;
+        transition: .3s ease-in-out;
+        clip-path: inset(0 0 100% 0);
+    }
+
+    .header .navbar.active{
+        clip-path: inset(0 0 0 0);
+    }
+
+    .header .navbar a{
+        display:block;
+        margin:32px;
+        text-align: center;
+    }
+}
+
+@media (max-width:450px){   
+
+}
